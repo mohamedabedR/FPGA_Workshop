@@ -40,45 +40,52 @@ the FPGA used in several firlds and application :
   
 # Day 1 - Xilinx Vivado
 
-  ## Introduction To Vivado 
-    Vivado is a platform that could be used to programe the basys3 board by using verilog 
-    inital release was 2012 but in this work shop we will be using the version  of 2019.2 .
-    Also this platform provides more metrics that we will mention below that can be essential
-    for FPGA programing , in this workshop we will have a verilog code forcounter that already maden and we will run it .
+ ## Introduction To Vivado 
+  Vivado is a platform that could be used to programe the basys3 board by using verilog inital release was 2012 but in this work shop we will be using the version  of 2019.2 .
+  Also this platform provides more metrics that we will mention below that can be essential for FPGA programing , in this workshop we will have a verilog code forcounter that already maden and we will run it .
       
-   ### open Vivado 
+   ### open Vivado   
+   <img src="day1/day1-1.png">
    
-        <img src="day1/day1-1.png">
     
    ## Vivado counter
-       This repository was provided by a verilog code for a counter that could have be used to run it in vivado and simulate it and the results was :
+   This repository was provided by a verilog code for a counter that could have be used to run it in vivado and simulate it and the results was :
        <img src="day1/day1-simulation.png">
-       after run the simulation and make sure that every thing gone well we runing the elaborated design that will show us the schematic and the I/O planning of the FPGA that been used in the code .
        
+   after run the simulation and make sure that every thing gone well we runing the elaborated design that will show us the schematic and the I/O planning of the FPGA that been used in the code .    
        <img src="day1/day1-elaboration-schem.png">
-       
        <img src="day1/day1-IO-palnning.png">
        
-       Next step is to run the synthesis that will be also providing us more complex schematic and I/O planning and displayes for us the timing analyses :
+   Next step is to run the synthesis that will be also providing us more complex schematic and I/O planning and displayes for us the timing analyses :
        <img src="day1/day1-syn-schem.png">
-       
        <img src="day1/day1-timing2.png">
        
-       for the next step we need to maked sure to change and match the I/O of the code to I/O that been defined in the basys3 borad  
+   for the next step we need to maked sure to change and match the I/O of the code to I/O that been defined in the basys3 borad  
                <img src="day1/day1-io.png">
-               
                <img src="day1/day1-constrains.png">
                
-        then we will run the implementaion :
-        
+   then we will run the implementaion :     
                <img src="day1/day1-imp timing.png">
                
-         and that will gave us also a summray of the number of the logic blocks that used in the code and every path timing .
+   and that will gave us also a summray of the number of the logic blocks that used in the code and every path timing .
           <img src="day1/day1-utilze.png">
-          
           <img src="day1/day1-delaypath.png">
           
    ## Vivado VIO
+   VIO or virtual input/output is a featur that vivado provides and his role to give the desinger virtual inputs or outputs and it cloud be helpul if we don't have access to the FPGA so we can replace the reset switch with virtual input .
+   So to use this feature we should modify the code first then to run it , the changes in the code will be by chage the rst form an input reg to wire that connects
+ between the VIO and the design counter
+ 
+   <img src="day1/day1-VIOmod.png">
+      
+ so after the changing the code and run it we will have :
+        <img src="day1/day1-vioelab.png">
+        <img src="day1/day1-vio.png">
+ as we see from the two pictures we will have only one input instaed of 2 and 4 outputs 
+
+
+     
+
 
    
       
