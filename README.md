@@ -41,10 +41,11 @@ the FPGA used in several firlds and application :
 # Day 1 - Xilinx Vivado
 
   ## Introduction To Vivado 
-     Vivado is an platform that could be used to programe the basys3 board by using verilog  inital release was 2012 but in this work shop we will be using the version of 2019.2 .
+    Vivado is an platform that could be used to programe the basys3 board by using verilog  inital release was 2012 but in this work shop we will be using the version of 2019.2 .
       Also this platform provides more metrics that we will mention below that can be essential for FPGA programing , in this workshop we will have a verilog code for counter that already maden and we will run it .
       
    ### open Vivado 
+   
         <img src="day1/day1-1.png">
     
    ## Vivado counter
