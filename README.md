@@ -22,14 +22,14 @@
 # Introduction To FPGA
   FPGA or a field-programmable gate array is an integrated circuit designed to be configured by a designer . the FPGA configuration is specified by using a hardware description language (HDL) like (verilog ,etc.).
   the FPGA used in several firlds and application :
-      - Hardware acceleration .
-      - Signal processing .
-      - Device controllers .
-      - Embedded systems .
-      - Aerosapce .
-      - High performace computing .
-      - Machine learning .
-    FPGA Architeture .
+   - Hardware acceleration .
+   - Signal processing .
+   - Device controllers .
+   - Embedded systems .
+   - Aerosapce .
+   - High performace computing .
+   - Machine learning .
+   FPGA Architeture .
     <img src="day1/archi.png">
  
 
