@@ -1,4 +1,4 @@
-# FPGA_Workshop
+# FPGA Workshop
   This repository includes all the studies and the skills that have beed gained during the [FPGA-Fabric,Design and architecture](https://www.vlsisystemdesign.com/fpga/?utm_term=582784&utm_content=educational&utm_source=email-sendgrid&utm_medium=382714&utm_campaign=2022-12-05) workshop. that basicly covers 5 modules that will be mentioned in this repository
 
 
@@ -20,6 +20,17 @@
   - [Acknowledgement](#acknowledgement)
  
 # Introduction To FPGA
+  FPGA or a field-programmable gate array is an integrated circuit designed to be configured by a designer . the FPGA configuration is specified by using a hardware description language (HDL) like (verilog ,etc.).
+  ##the FPGA used in several firlds and application :
+      - Hardware acceleration 
+      - Signal processing 
+      - Device controllers
+      - Embedded systems 
+      - Aerosapce 
+      - High performace computing 
+      - Machine learning 
+    ##FPGA Architeture 
+    <img src="day1/archi.png">
  
 
   
