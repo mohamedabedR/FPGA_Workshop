@@ -29,9 +29,7 @@
       - Aerosapce .
       - High performace computing .
       - Machine learning .
-    ##FPGA Architeture 
-    
-    
+    ##FPGA Architeture .
     <img src="day1/archi.png">
  
 
