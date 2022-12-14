@@ -6,8 +6,9 @@
 # Table of Contents
   - [Introduction To FPGA](#introduction-to-FPGA)
   - [Day 1 - Xilinx Vivado](#day-1---Xilinx-Vivado)
-    - [](#)
-    - [](#)
+    - [Introduction To Vivado](#Introduction-To-Vivado)
+    - [Vivado counter](#Vivado-counter)
+    - [Vivado VIO](Vivado-VIO)
   - [Day 2 - ](#day-2---)
     - [](#)
      
@@ -81,18 +82,11 @@ the FPGA used in several firlds and application :
  so after the changing the code and run it we will have :
         <img src="day1/day1-vioelab.png">
         <img src="day1/day1-vio.png">
- as we see from the two pictures we will have only one input instaed of 2 and 4 outputs 
-
-
-     
-
-
-   
-      
-  
-
+ as we see from the two pictures we will have only one input instaed of 2 and 4 outputs.
  
- 
+ I don't have the basys3 board so Unfortunately I can't display the results on the hardwars
+
+
 # Day 2 - 
  
  
